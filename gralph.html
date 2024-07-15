@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="sm:overflow-x-hidden overflow-hidden">
+   <div class="grid sm:grid-cols-1 gap-4 m-1  relative sm:overflow-hidden scroll-mx-0">
+    <div class="min-h-[200px] rounded-lg  bg-transparent items-center">
+        <div class="sm:flex sm:justify-around justify-around items-center relative block " id="manage" >
+            <h1 class="sm:text-7xl text-orange-500 font-bold my-10 mx-5 ">
+                ::manage
+            </h1>
+            <ul class="sm:flex hidden transition duration-150 ease-out" id="content" >
+                <li><a href="#" class="sm:text-3xl sm:font-bold sm:py-5 sm:px-5 text-black ">Pricing</a></li>
+                <li><a href="" class="sm:text-3xl sm:font-bold sm:py-5 sm:px-5 text-black ">Product</a></li>
+                <li><a href="" class="sm:text-3xl sm:font-bold sm:py-5 sm:px-5 text-black ">About us</a></li>
+                <li><a href="" class="sm:text-3xl sm:font-bold sm:py-5 sm:px-5 text-black ">Careers</a></li>
+                <li><a href="" class="sm:text-3xl sm:font-bold sm:py-5 sm:px-5 text-black ">Community</a></li>
+            </ul>
+
+            <button class="bg-orange-600 sm:text-3xl sm:py-5 sm:px-5 font-bold text-black sm:rounded-full rounded-sm text-[2px] py-2 px-3 sm:flex hidden">Get Started</button>
+            <button class="text-gray-700 font-bold absolute right-5 top-0 " id="nav">::</button>
+            
+        </div>
+    </div>
+   </div>
+
+   <div class="sm:grid sm:grid-cols-2 sm:gap-4 sm:m-5 flex flex-col-reverse sm:relative relative">
+        <div class="sm:min-h-[80vh] rounded-lg  items-center content-center text-justify ">
+            <div class="flex text-justify sm:px-72 justify-center flex-col items-center ">
+                <h1 class="sm:text-9xl text-4xl font-bold text-center sm:text-justify">Bring everyone 
+                <br>together to build 
+                <br>better products</h1>
+                <p class="sm:text-5xl text-gray-400 sm:leading-relaxed text-center sm:text-justify my-10">Manage makes it simple for software teams 
+                    <br>to plan their day-to-day task while keeping the  
+                    <br>larger team goals view 
+                </p>
+                <button class="bg-orange-600 sm:text-3xl sm:py-5 sm:px-5 font-bold  text-black sm:rounded-full rounded-sm text-[2px] py-2 px-3 ">Get Started</button>
+            </div>
+        </div>
+        <!-- <div class="absolute sm:w-[70%] h-[30vh] bg-purple-600 rounded-lg translate-x-10"></div> -->
+        <div class="sm:w-[70%]  sm:h-[50vh] sm:rounded-full  sm:bg-red-400  sm:-rotate-45  sm:right-0  sm:top-0  sm:translate-x-[40rem]  sm:-translate-y-[30rem]  sm:opacity-25  sm:transform-gpu sm:absolute "></div>
+        <div class="w-[150%] h-[50vh] bg-red-500 absolute rounded-full -rotate-45  translate-x-[18rem] -translate-y-[10rem] sm:hidden top-0 right-10 opacity-25"></div>
+        
+        <div class="min-h-[80vh] rounded-lg flex flex-col items-center overflow-hidden z-10">
+            <div class="min-h-[30vh] w-[90%] flex m-auto sm:justify-around px-10">
+                <div class="sm:w-[40%]  bg-[url('bar.png')] bg-no-repeat bg-contain rounded-lg w-[40%]"></div>
+                <div class="sm:w-[40%]  bg-[url('pie.png')] bg-no-repeat bg-contain  rounded-lg w-[40%]"></div>
+            </div>
+            <div class="min-h-[38vh] w-[90%]">
+                <div class="sm:w-[45%] sm:h-[38vh] m-auto bg-[url('stat.png')] bg-no-repeat bg-contain w-[40%] h-[38vh] rounded-lg"></div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="gralph.js"></script>
+</body>
+</html>
